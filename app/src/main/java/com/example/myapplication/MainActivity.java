@@ -39,13 +39,11 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(14);
         myTextView.setBackgroundColor(Color.BLACK);
         myTextView.setTextColor(Color.WHITE);
-
         GridLayout.Spec rowSpec = GridLayout.spec(0,1,1f);
         GridLayout.Spec colSpec = GridLayout.spec(0,4,1f);
         GridLayout.LayoutParams vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
         myTextView.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
         myTextView.setLayoutParams(vParams);
-
         myGridLayout.addView(myTextView);
 
         //Properites
@@ -54,21 +52,19 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(14);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(1,2,1f);
         colSpec = GridLayout.spec(0,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
         myTextView.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
         myTextView.setLayoutParams(vParams);
         myGridLayout.addView(myTextView);
-
+        
         //Name
         myTextView = new TextView(this);
         myTextView.setText("name");
         myTextView.setTextSize(14);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(1,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -82,7 +78,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(14);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(1,1,1f);
         colSpec = GridLayout.spec(2,2,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -96,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(14);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(2,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -110,14 +104,12 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(14);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(2,1,1f);
         colSpec = GridLayout.spec(2,2,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
         myTextView.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
         myTextView.setLayoutParams(vParams);
         myGridLayout.addView(myTextView);
-
 
         //Rule
         myTextView = new TextView(this);
@@ -126,7 +118,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTypeface(null, Typeface.BOLD);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(3,1,1f);
         colSpec = GridLayout.spec(0,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -141,7 +132,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTypeface(null, Typeface.BOLD);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(3,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -156,7 +146,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTypeface(null, Typeface.BOLD);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(3,1,1f);
         colSpec = GridLayout.spec(2,2,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -164,14 +153,12 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setLayoutParams(vParams);
         myGridLayout.addView(myTextView);
 
-
-        //" "
+        //Space
         myTextView = new TextView(this);
         myTextView.setText(" ");
         myTextView.setTextSize(14);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(4,1,1f);
         colSpec = GridLayout.spec(0,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -185,7 +172,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(11);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(4,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -193,13 +179,12 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setLayoutParams(vParams);
         myGridLayout.addView(myTextView);
 
-        //"System.out.println(greeting + \", World!\")"
+        //Greeting
         myTextView = new TextView(this);
         myTextView.setText("System.out.println(greeting + \", World!\")");
         myTextView.setTextSize(11);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(4,1,1f);
         colSpec = GridLayout.spec(2,2,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -207,12 +192,11 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setLayoutParams(vParams);
         myGridLayout.addView(myTextView);
 
-        //" "
+        //Space
         myTextView = new TextView(this);
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(5,1,1f);
         colSpec = GridLayout.spec(0,1, 1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -226,7 +210,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(5,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -240,7 +223,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(5,1,1f);
         colSpec = GridLayout.spec(2,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -254,7 +236,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#33F1FF"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(5,1,1f);
         colSpec = GridLayout.spec(3,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -269,7 +250,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTypeface(null, Typeface.BOLD);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(6,1,1f);
         colSpec = GridLayout.spec(0,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -283,7 +263,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(7,1,1f);
         colSpec = GridLayout.spec(0,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -297,7 +276,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(8,1,1f);
         colSpec = GridLayout.spec(0,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -311,7 +289,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(9,1,1f);
         colSpec = GridLayout.spec(0,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -325,7 +302,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.WHITE);
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(10,1,1f);
         colSpec = GridLayout.spec(0,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -340,7 +316,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTypeface(null, Typeface.BOLD);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(6,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -354,7 +329,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(7,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -368,7 +342,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(8,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -382,7 +355,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(9,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -396,7 +368,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(10,1,1f);
         colSpec = GridLayout.spec(1,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -411,7 +382,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTypeface(null, Typeface.BOLD);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(6,1,1f);
         colSpec = GridLayout.spec(2,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -425,7 +395,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(7,1,1f);
         colSpec = GridLayout.spec(2,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -439,7 +408,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(8,1,1f);
         colSpec = GridLayout.spec(2,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -453,7 +421,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(9,1,1f);
         colSpec = GridLayout.spec(2,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -467,7 +434,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FCF57B"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(10,1,1f);
         colSpec = GridLayout.spec(2,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -482,7 +448,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTypeface(null, Typeface.BOLD);
         myTextView.setBackgroundColor(Color.parseColor("#FF9463"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(6,1,1f);
         colSpec = GridLayout.spec(3,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -496,7 +461,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(11);
         myTextView.setBackgroundColor(Color.parseColor("#FF9463"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(7,1,1f);
         colSpec = GridLayout.spec(3,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -510,7 +474,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FF9463"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(8,1,1f);
         colSpec = GridLayout.spec(3,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -524,7 +487,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FF9463"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(9,1,1f);
         colSpec = GridLayout.spec(3,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
@@ -538,7 +500,6 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setTextSize(12);
         myTextView.setBackgroundColor(Color.parseColor("#FF9463"));
         myTextView.setTextColor(Color.BLACK);
-
         rowSpec = GridLayout.spec(10,1,1f);
         colSpec = GridLayout.spec(3,1,1f);
         vParams = new GridLayout.LayoutParams(rowSpec,colSpec);
